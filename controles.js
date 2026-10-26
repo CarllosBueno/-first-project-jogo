@@ -1,10 +1,10 @@
-const teclas = {
+export const teclas = {
     w: false,
     a: false,
     s: false,
     d: false,
 }
-
+console.log('jogo iniciado')
 document.addEventListener('keydown', event =>{
     switch(event.key){
         case 'w':
