@@ -1,6 +1,3 @@
-import { teclas } from "./controles.js";
-import { atualizarFisica } from "./fisica.js";
-
 // quadros processados.
 let quadros = 0
 // guarda o instante em que o quadro anterior foi medido.

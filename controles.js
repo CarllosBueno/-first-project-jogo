@@ -1,9 +1,11 @@
-export const teclas = {
+const teclas = {
     w: false,
     a: false,
     s: false,
     d: false,
 }
+window.teclas = teclas;
+
 console.log('jogo iniciado')
 document.addEventListener('keydown', event =>{
     switch(event.key){
