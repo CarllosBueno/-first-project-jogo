@@ -1,6 +1,20 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    text-align:center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+#gameboard {
+    width: 50%;
+    height: 50vh;
+    border: 3px solid white;
+    margin: 0 auto;
+    background-color: white;
 }

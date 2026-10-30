@@ -8,7 +8,7 @@ window.teclas = teclas;
 
 console.log('jogo iniciado')
 document.addEventListener('keydown', event =>{
-    switch(event.key){
+    switch(event.key.toLocaleLowerCase()){
         case 'w':
             teclas.w = true
             console.log(teclas.w)
@@ -25,7 +25,7 @@ document.addEventListener('keydown', event =>{
     }
 })
 document.addEventListener('keyup', event =>{
-    switch(event.key){
+    switch(event.key.toLocaleLowerCase()){
         case 'w':
             teclas.w = false
             console.log(teclas.w)
